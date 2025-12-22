@@ -1,0 +1,188 @@
+/* general */
+.list {
+     color: greenyellow;
+    }
+
+body {
+    background-color: rgb(11, 24, 61);
+}
+
+p {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+}
+h3 {
+    color: aliceblue;
+}
+
+/* 2a. Uber */
+.uber {
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.28s;
+}
+.uber:hover {
+    opacity: 75%;
+}
+
+/* 2b. Amazon */
+.amazon {
+    padding: 9px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.28s;
+}
+.amazon:hover {
+    opacity: 75%;
+}
+
+/* 2c. GitHub */
+.github {
+    padding: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 10px;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+.github:hover {
+    opacity: 78%;
+    }
+
+/* 2d. Bootstrap */
+.strapOne {
+    padding: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: 550;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.strapOne:hover {
+    opacity: 75%;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+
+}
+
+.strapTwo {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(108, 117, 125);
+    font-weight: 550;
+    border-color: rgb(108, 117, 125);
+    border-radius: 3px;
+    border-style: solid;
+    cursor: pointer;
+}
+.strapTwo:hover {
+    background-color: rgb(121, 82, 179);
+    color: white;
+}
+
+/* 2e. LinkedIn */
+.inOne {
+    padding: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.18s;
+}
+.inOne:hover {
+    opacity: 75%;
+    box-shadow: 5px 5px 10px rgba(111, 111, 111, 0.18);
+}
+
+.inTwo {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(10, 102, 194);
+    font-weight: bolder;
+    border-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    border-style: solid;
+    cursor: pointer;
+}
+.inTwo:hover {
+    background-color: rgb(10, 102, 194);
+    color: white;
+}
+
+/* 2f. Continue exercise 1g. but better */
+.bold {
+    font-weight: bolder;
+    font-size: large;
+}
+.colored {
+    color: greenyellow;
+}
+
+    /* Button 1 */
+.botOne {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    background-color: rgb(55, 250, 110);
+    color: rgb(11, 24, 61);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+.botOne:hover {
+    opacity: 78%;
+    }
+
+    /* Button 2 */
+.botTwo {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    color: rgb(11, 24, 61);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.28s;
+    }
+.botTwo:hover {
+   opacity: 78%;
+    }
+
+a {
+    color: rgb(32, 255, 229);
+}
