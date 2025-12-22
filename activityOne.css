@@ -1,0 +1,36 @@
+.actNo {
+     color: green;
+    }
+
+    /* Button 1 */
+.botOne {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+.botOne:hover {
+    opacity: 78%;
+    }
+
+    /* Button 2 */
+.botTwo {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.28s;
+    }
+.botTwo:hover {
+   opacity: 78%;
+    }
