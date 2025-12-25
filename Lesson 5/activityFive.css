@@ -312,3 +312,22 @@ p {
 .blue:hover {
     color: rgb(27, 152, 255);
 }
+
+/* 6a. Model 3 */
+.cod {
+    color: black;
+    margin-bottom: 100px;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mod {
+    font-weight: bold;
+    font-size: 40px;
+
+    color: black;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+    text-align: center;
+}
