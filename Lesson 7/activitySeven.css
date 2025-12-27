@@ -1,0 +1,157 @@
+* {
+    font-family: "Space Mono", monospace;
+}
+
+p {
+    color: rgb(54, 70, 54);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.name, .mail {
+    display: block;
+
+    width: 300px;
+    height: 25px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* 8b. paragraph and 2 button */
+.eytB {
+    width: 300px;
+    margin-right: 20px;
+    font-weight: lighter;
+}
+.eytB, .no, .ye {
+    display: inline-block;
+    vertical-align: middle;
+}
+.no, .ye {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* 8c. Google Logo */
+.google {
+    font-size: 20px;
+    width: 600px;
+    height: 50px;
+
+    border-radius: 25px;
+    border: none;
+    padding-left: 18px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+
+    color: grey;
+    box-shadow: 0px 2px 8px rgba(121, 132, 136, 0.775);
+}
+
+.logo {
+    width: 400px;
+    height: 150px;
+
+    object-fit: contain;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+/*7d. Sign up Form */
+.first, .last, .mailTu {
+    border-radius: 10px;
+    font-size: 20px;
+
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-color: rgb(141, 136, 136);
+}
+.first, .last {
+    width: 200px;
+    margin-right: 0px;
+
+}
+.mailTu {
+    width: 435px;
+}
+
+.form {
+    width: 460px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: bold;
+
+    background-color: rgb(0, 162, 255);
+    color: white;
+
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.form:hover {
+    background-color: rgb(0, 116, 184);
+}
+.form:active {
+    opacity: 78%;
+}
+
+
+/* 7e. Uber request */
+.ride {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.pickup, .desti {
+    background-color: rgba(183, 183, 183, 0.335);
+    display: block;
+    font-size: 25px;
+    border: none;
+
+    width: 600px;
+    height: 70px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+}
+
+.now, .later {
+    font-size: 20px;
+    height: 70px;
+
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.now {
+    width: 200px;
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.now:hover {
+    background-color: rgb(38, 38, 38);
+}
+.now:active {
+    opacity: 75%;
+}
+
+.later {
+    width: 300px;
+    background-color: rgba(183, 183, 183, 0.335);
+    border: none;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.later:hover {
+    background-color: rgba(126, 126, 126, 0.529);
+}
+.later:active {
+    opacity: 75%;
+}

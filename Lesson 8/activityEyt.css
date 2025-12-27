@@ -1,0 +1,244 @@
+* {
+    font-family: "Space Mono", monospace;
+    color: rgb(54, 70, 54);
+    font-weight: bold;
+}
+p {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* 8a. */
+.redSquare {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+/* 8b. */
+.greenCir {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: green;
+}
+
+/* 8c. */
+.border {
+    width: 500px;
+    height: 100px;
+    padding-left: 25px;
+    padding-bottom: 22px;
+
+    border-style: solid;
+    border-width: 1px;
+
+    font-size: 20px;
+}
+.yoo {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* 8d. */
+.blckGround {
+    width: 630px;
+    height: 170px;
+    background-color: rgb(29, 28, 28);
+
+    margin-bottom: 60px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.ytMusic {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 35px;
+
+    padding-bottom: 0px;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.descQEA {
+    font-size: 22px;
+    color: rgb(165, 165, 165);
+
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 600px;
+}
+
+/* 8e.0 */
+.tweee {
+    width: 600px;
+    height: 80px;
+
+    box-shadow: 0px 2px 8px rgba(121, 132, 136, 0.775);
+    vertical-align: middle;
+    border-radius: 8px;
+
+    padding: 25px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 100px;
+    vertical-align: middle;
+
+    margin-right: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.tots {
+    vertical-align: middle;
+    color: rgb(145, 145, 145);
+    font-size: 22px;
+
+    margin: 0px;
+    padding: 0px;
+}
+/* 8e.1 */
+.oneTots {
+    color: rgb(63, 63, 63);
+    font-size: 22px;
+
+    border: none;
+    outline: none;
+}
+.tweet {
+    width: 90px;
+    height: 50px;
+    background-color: rgb(0, 166, 255);
+    color: white;
+
+    margin-left: 120px;
+    border-radius: 35px;
+    border: none;
+
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tweet:hover {
+    background-color: rgb(0, 145, 255);
+}
+.tweet:active {
+    opacity: 80%;
+}
+
+/* 8f. Recreate Facebook */
+.colBP {
+    width: 280px;
+    height: 430px;
+
+    margin: 10px;
+    padding: 0px;
+
+    box-shadow: 0px 2px 8px rgba(121, 132, 136, 0.775);
+    display: inline-block;
+}
+.nini {
+    width: 280px;
+    height: 260px;
+    object-fit: cover;
+
+    size-adjust: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.name {
+    padding: 0px;
+    padding-left: 15px;
+
+    margin: 0px;
+    margin-top: 5px;
+    color: black;
+
+    font-size: 28px;
+    cursor: pointer;
+}
+.name:hover{
+    color: rgb(63, 62, 62);
+}
+.mutual {
+    padding: 0px;
+    padding-left: 15px;
+    margin: 0px;
+
+    font-size: 20px;
+}
+.add {
+    margin: 15px;
+    cursor: pointer;
+
+    padding: 15px;
+    padding-left: 28px;
+    padding-right: 28px;
+
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.add:hover {
+    background-color: rgb(0, 125, 220);
+}
+.add:active {
+    opacity: 80%;
+}
+
+/* 8h. Google Search */
+.googo {
+    text-align: center;
+    width: 1500px;
+    height: 600px;
+    margin-bottom: 100px;
+}
+.google {
+    font-size: 30px;
+    width: 1000px;
+    height: 80px;
+
+    border-radius: 50px;
+    border: none;
+    padding-left: 50px;
+    margin: 0px;
+    margin-bottom: 50px;
+
+    color: grey;
+    box-shadow: 0px 2px 8px rgba(121, 132, 136, 0.775);
+}
+
+.logo {
+    width: 600px;
+    height: 220px;
+
+    object-fit: contain;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.ser, .lucky {
+    width: 350px;
+    height: 100px;
+    margin: 0px;
+    margin-right: 15px;
+    padding: 0px;
+
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: black;
+}
+.lucky {
+    width: 400px;
+}
