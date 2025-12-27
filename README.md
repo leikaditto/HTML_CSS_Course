@@ -42,7 +42,6 @@ During this course, I learned and applied:
 - How to create modern layouts without JavaScript
 - How to improve visual design with spacing, typography, and colors
 
----
 
 ## 🚀 Next Steps
 
@@ -51,7 +50,6 @@ In the future, I plan to:
 - Create mini-projects like landing pages, forms, and a portfolio
 - Explore CSS animations and transitions
 
----
 
 ## 👤 Author
 
@@ -59,7 +57,6 @@ In the future, I plan to:
 
 Feel free to explore, reuse, and build on this work! Your feedback is always welcome.
 
----
 
 ## 📄 License
 
