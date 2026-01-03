@@ -1,0 +1,272 @@
+body {
+    font-family: 'Space Mono', monospace;
+    color: rgb(78, 77, 77);
+    margin-bottom: 1000px;
+}
+
+.elEy {
+    display: flex;
+    flex-direction: row;
+}
+
+.elOne {
+    background-color: cadetblue;
+    width: 50px;
+}
+.elTwo {
+    background-color: coral;
+    flex: 1;
+}
+.elThree {
+    background-color: goldenrod;
+    width: 75px;
+}
+
+.elFour {
+    background-color: coral;
+    width: 200px;
+}
+.elFive {
+    background-color: cadetblue;
+    width: 75px;
+}
+
+
+.elSee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.elSix {
+    background-color: goldenrod;
+}
+.elSeven {
+    background-color: cadetblue;
+}
+.elEyt {
+    background-color: coral;
+}
+.elNine {
+    background-color: olive;
+}
+
+.elDee {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 50px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+.elTen {
+    background-color: olive;
+    width: 200px;
+}
+.elVen {
+    background-color: goldenrod;
+    width: 75px;
+}
+
+
+/* 11e. Create a Notification box */
+.notifBox {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgba(210, 209, 209, 0.759);
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 10px;
+
+    font-size: 15px;
+}
+.info {
+    color: black;
+}
+.infoNo {
+    background-color: rgb(0, 149, 255);
+    color: whitesmoke;
+    border-radius: 35px;
+
+    width: 30px;
+    font-weight: 600;
+
+    padding-left: 13px;
+}
+.infoNo1 {
+    background-color: rgb(0, 149, 255);
+    color: whitesmoke;
+    border-radius: 35px;
+
+    width: 20px;
+
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+
+/* 11g. Tweeter Follow Suggestion */
+.infoBox {
+    display: flex;
+    flex-direction: column;
+
+    width: 450px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgba(210, 209, 209, 0.759);
+}
+.nini {
+    display: flex;
+    flex-direction: row;
+
+    margin: 10px;
+}
+
+.imgHere {
+    display: flex;
+    flex-direction: row;
+
+    width: 80px;
+    height: 60px;
+
+    size-adjust: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.emegi {
+    border-radius: 50px;
+}
+.emegi1 {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.deets {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    color: gray;
+}
+.niName {
+    color: black;
+    font-weight: bolder;
+
+    cursor: pointer;
+}
+.niName:hover {
+    text-decoration: underline;
+}
+.niName:active {
+    opacity: 75%;
+}
+
+.followBtn {
+    background-color: rgb(63, 182, 255);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+
+    width: 100px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: 0.24s;
+}
+.followBtn:hover {
+    background-color: rgb(15, 163, 255);
+}
+.followBtn:active {
+    opacity: 75%;
+}
+
+/* Recreate A random Header */
+.rndHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: coral;
+
+    height: 70px;
+    width: 100%;
+}
+.sweetHome {
+    padding-left: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+
+    cursor: pointer;
+}
+.sweetHome:hover {
+    color: rgb(238, 226, 226);
+}
+.sweetHome:active {
+    opacity: 75%;
+}
+
+.searchCenter {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.srchCntr {
+    max-width: 300px;
+    width: 300px;
+    height: 35px;
+
+    border-radius: 30px;
+    border-style: solid;
+    border: none;
+    outline: none;
+
+    padding-left: 20px;
+}
+.endLoad {
+    padding-right: 10px;
+    background-color: coral;
+}
+.butAss {
+    background-color: coral;
+    color: whitesmoke;
+    padding: 8px;
+    width: 90px;
+    max-width: 100px;
+
+    margin-right: 10px;
+
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+.butAss:hover {
+    background-color: rgb(254, 96, 38);
+}
+.butAss:active {
+    background-color: rgb(255, 152, 114);
+}
