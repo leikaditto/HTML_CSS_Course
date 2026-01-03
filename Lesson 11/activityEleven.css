@@ -212,13 +212,13 @@ body {
     background-color: coral;
 
     height: 70px;
-    width: 100%;
 }
 .sweetHome {
     padding-left: 10px;
     font-weight: bold;
     color: whitesmoke;
 
+    width: 80px;
     cursor: pointer;
 }
 .sweetHome:hover {
@@ -231,11 +231,14 @@ body {
 .searchCenter {
     margin-left: 20px;
     margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 .srchCntr {
-    max-width: 300px;
-    width: 300px;
     height: 35px;
+    width: 450px;
 
     border-radius: 30px;
     border-style: solid;
@@ -247,13 +250,16 @@ body {
 .endLoad {
     padding-right: 10px;
     background-color: coral;
+
+    display: flex;
+    justify-content: end;
+    width: 120px;
 }
 .butAss {
     background-color: coral;
     color: whitesmoke;
     padding: 8px;
     width: 90px;
-    max-width: 100px;
 
     margin-right: 10px;
 
