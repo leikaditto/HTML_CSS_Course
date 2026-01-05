@@ -1,0 +1,218 @@
+body {
+    font-family: 'Space Mono', monospace;
+    color: rgb(78, 77, 77);
+    margin-bottom: 1000px;
+}
+
+.twelveEy {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+}
+/* 12a. */
+.eyOne {
+    background-color: olive;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 {
+    background-color: black;
+    width: 50px;
+    height: 30px;
+    color: whitesmoke;
+}
+.eyTwo {
+    background-color: cadetblue;
+    width: 200px;
+}
+
+/* 12b. */
+.beeOne {
+    background-color: goldenrod;
+    width: 100px;
+}
+.beeTwo {
+    background-color: coral;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.rowOne {
+    display: flex;
+    align-content: start;
+}
+.rowTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row2 {
+    background-color: black;
+    justify-items: center;
+    color: whitesmoke;
+}
+
+/* 12c. & d*/
+.mainGmail {
+    border: none;
+    border-radius: 5px;
+
+    max-height: 600px;
+    max-width:450px;
+
+    box-shadow: 0px 2px 8px rgba(121, 132, 136, 0.775);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+.inbox {
+    color: rgb(134, 134, 134);
+    margin-bottom: 15px;
+}
+.nini {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+
+    margin: 0px;
+    padding: 0px;
+}
+.niniEmegi {
+    display: inline-block;
+    vertical-align: middle;
+}
+.imegi {
+    object-fit: cover;
+    object-position: center;
+
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+.infoBox {
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 360px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+.titleMail {
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.timeMail {
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(78, 77, 77);
+}
+.subjectMail {
+    font-weight: bolder;
+    color: black;
+    font-size: 17px;
+}
+.wholeMail {
+    font-size: 15px;
+}
+
+/* 12e. */
+.tweet {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+
+    max-height: 200px;
+    max-width: 500px;
+
+    box-shadow: 0px 2px 8px rgba(121, 132, 136, 0.775);
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+.imageIcon {
+    vertical-align: top;
+    width: 80px;
+    height: 190px;
+}
+.imageJen {
+    height: 70px;
+    width: 70px;
+
+    border-radius: 50px;
+}
+.infoTweet {
+
+    width: 420px;
+    height: 190px;
+}
+.aboutTwt {
+
+    width: 420px;
+    height: 93px;
+}
+.userN {
+
+    width: 420px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.userNick {
+    padding-right: 10px;
+    flex: 1;
+    font-weight: bold;
+    color: black;
+
+    height: 35px;
+    /* we actually need to use flex: 1; and 2; for this */
+}
+.userAT {
+    flex: 2;
+}
+.dTweet {
+    width: 425px;
+    height: 55px;
+}
+.dLink {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(169, 169, 169);
+    border-radius: 25px;
+
+    width: 420px;
+    height: 93px;
+
+    display: flex;
+    flex-direction: row;
+}
+.dNail {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-radius: none;
+    border: none;
+
+    width: 180px;
+    height: 93px;
+    background-color: rgb(167, 167, 167);
+}
+.dInfoLink {
+    padding: 8px;
+    padding-left: 13px;
+}
+.ytTitle {
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
