@@ -23,7 +23,7 @@ body {
     background-color: olive;
 }
 
-.blackElement {
+/* .blackElement {
     position: fixed;
     top: 0px;
     bottom: 0px;
@@ -31,4 +31,56 @@ body {
     left: 0px;
 
     background-color: black;
+} */
+
+.modalBG {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.263);
+}
+.modalBox {
+    justify-content: center;
+    align-items: center;
+
+    width: 450px;
+    height: 140px;
+    background-color: whitesmoke;
+
+    border-radius: 15px;
+
+    padding: 25px;
+}
+.modalTitle {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+
+    margin-bottom: 10px;
+}
+.modalDesc {
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+
+    margin-bottom: 10px;
+}
+.modalBtn {
+    margin-top: 10px;
+}
+.closeBtn {
+    font-size: 20px;
+
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
 }
