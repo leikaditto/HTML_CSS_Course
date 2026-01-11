@@ -81,6 +81,130 @@ body {
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+}
 
+/* 13e. Facebook header */
+.fbHeader {
+    height: 50px;
+    width: 590px;
+
+    background-color: rgba(210, 210, 210, 0.699);
+    z-index: 300px;
+}
+.fbInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fbName {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 10px;
+    padding-left: 10px;
+
+    font-weight: bold;
+    color: black;
+}
+.niniMage {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.dName {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+
+.fbBtn {
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 10px;
+}
+.infoBtn, .infoBtn1 {
+    background-color: rgb(9, 107, 255);
+    color: white;
+    margin-left: 5px;
+    margin-top: 6px;
+
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    font-weight: bold;
+}
+.infoBtn1 {
+    background-color: rgb(202, 202, 202);
+    color: black;
+}
+
+/* 14f. Double Side-Bar */
+.sidebarOne {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background-color: rgb(18, 18, 18);
+    width: 70px;
+
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.imegiOne {
+    margin-bottom: 10px;
+    display: flex;
+}
+.imegiTwo {
+    margin-bottom: 10px;
+    display: flex;
+}
+.imegiThree {
+    margin-bottom: 10px;
+    display: flex;
+}
+.imegiAll {
+    height: 50px;
+    width: 50px;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.sidebarTwo {
+    position: fixed;
+    left: 70px;
+    top: 0px;
+    bottom: 0px;
+    width: 200px;
+    background-color: rgb(37, 37, 37);
+    padding-left: 15px;
+}
+.infoBig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 3px;
+    padding-top: 5px;
+}
+.plusSign {
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -7px;
+    padding-right: 10px;
+}
+.infoHashtag {
+    height: 40px;
 
 }
