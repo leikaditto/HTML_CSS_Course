@@ -1,0 +1,117 @@
+body {
+    font-family: 'Space Mono', monospace;
+    color: rgb(78, 77, 77);
+    height: 3000px;
+}
+
+.closeBtn {
+    background-color: rgba(33, 33, 33, 0.767);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: whitesmoke;
+}
+.blankBox {
+    position: fixed;
+    background-color: gray;
+    width: 320px;
+    height: 180px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.closeBtn1 {
+    width: 40px;
+    height: 40px;
+
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: rgba(18, 18, 18, 0.902);
+    
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.blankBox1 {
+    position: fixed;
+    background-color: gray;
+    width: 320px;
+    height: 180px;
+    bottom: 0px;
+    right: 0px;
+}
+.timeStamp {
+    background-color: black;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+    color: whitesmoke;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* 14e online shopping */
+.containerBox {
+    width: 230px;
+    height: 250px;
+    position: relative;
+}
+.imegi2 {
+    width: 230px;
+    height: 250px;
+}
+.offSale {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+
+    background-color: black;
+    color: whitesmoke;
+
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-size: 12px;
+}
+.cartBtn {
+    width: 230px;
+    height: 80px;
+
+    position: absolute;
+    background-color: rgba(253, 243, 230, 0.785);
+    bottom: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toCart {
+    height: 30px;
+    width: 130px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+}
+.toCart:active {
+    opacity: 75%;
+}
